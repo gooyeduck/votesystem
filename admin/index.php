@@ -8,11 +8,11 @@ if ( isset( $_SESSION['admin'] ) ) {
 <body class="hold-transition login-page">
 <div class="login-box">
 		<div class="login-logo">
-			<b>Voting System</b>
+			<b>CSE Computer Club Election</b>
 		</div>
   
 		<div class="login-box-body">
-		<p class="login-box-msg">Sign in to start your session</p>
+		<p class="login-box-msg"><b>ADMIN LOGIN</b></p>
 
 		<form action="login.php" method="POST">
 				<div class="form-group has-feedback">

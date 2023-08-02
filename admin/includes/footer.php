@@ -1,6 +1,6 @@
 <footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>All rights reserved</b>
+      <b>Ridwan | Parani | Ibrahim</b>
     </div>
-    <strong>Copyright &copy; 2021 <a href="https://www.campcodes.com">CampCodes</a></strong>
-</footer>
+    <strong>Made by SQUADRON</strong>
+</footer>ß
