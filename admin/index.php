@@ -27,6 +27,11 @@ if ( isset( $_SESSION['admin'] ) ) {
 				<div class="col-xs-4">
 						<button type="submit" class="btn btn-primary btn-block btn-flat" name="login"><i class="fa fa-sign-in"></i> Sign In</button>
 				</div>
+				<div class="col-xs-6">
+				<a href="index.php" class="btn btn-success btn-block btn-flat">
+					<i class="fa fa-user"></i> Voter Login
+				</a>
+			</div>
 				</div>
 		</form>
 		</div>

@@ -12,7 +12,7 @@ if ( isset( $_SESSION['voter'] ) ) {
 <body class="hold-transition login-page">
 <div class="login-box">
 		<div class="login-logo">
-			<b>CSE Conputer Club Election</b>
+			<b>CSE Computer Club Election</b>
 		</div>
   
 		<div class="login-box-body">
