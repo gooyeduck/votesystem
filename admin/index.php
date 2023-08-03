@@ -8,7 +8,7 @@ if ( isset( $_SESSION['admin'] ) ) {
 <body class="hold-transition login-page">
 <div class="login-box">
 		<div class="login-logo">
-			<b>CSE Computer Club Election</b>
+			<b>Voting System</b>
 		</div>
   
 		<div class="login-box-body">
