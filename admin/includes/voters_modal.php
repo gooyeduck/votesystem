@@ -24,6 +24,13 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label for="studentid" class="col-sm-3 control-label">Student ID</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="studentid" name="studentid" required>
+                    </div>
+                </div>
+                <div class="form-group">
                     <label for="password" class="col-sm-3 control-label">Password</label>
 
                     <div class="col-sm-9">
@@ -71,6 +78,13 @@
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="edit_lastname" name="lastname">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="edit_studentid" class="col-sm-3 control-label ">Student ID</label>
+
+                    <div class="col-sm-9">
+                      <input type="text" class="form-control" id="edit_studentid" name="studentid" required>
                     </div>
                 </div>
                 <div class="form-group">

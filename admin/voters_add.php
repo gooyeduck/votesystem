@@ -4,6 +4,7 @@
 if ( isset( $_POST['add'] ) ) {
 	$firstname = $_POST['firstname'];
 	$lastname  = $_POST['lastname'];
+	$studentid = $_POST['studentid'];
 	$password  = password_hash( $_POST['password'], PASSWORD_DEFAULT );
 	$filename  = $_FILES['photo']['name'];
 	if ( ! empty( $filename ) ) {
@@ -13,7 +14,7 @@ if ( isset( $_POST['add'] ) ) {
 	$set   = '123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	$voter = substr( str_shuffle( $set ), 0, 15 );
 
-	$sql = "INSERT INTO voters (voters_id, password, firstname, lastname, photo) VALUES ('$voter', '$password', '$firstname', '$lastname', '$filename')";
+	$sql = "INSERT INTO voters (voters_id, password, firstname, lastname, photo,studentid) VALUES ('$voter', '$password', '$firstname', '$lastname', '$filename','$studentid')";
 	if ( $conn->query( $sql ) ) {
 		$_SESSION['success'] = 'Voter added successfully';
 	} else {
