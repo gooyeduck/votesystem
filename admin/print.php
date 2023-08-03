@@ -27,7 +27,7 @@
 
       			$contents .= '
       				<tr>
-      					<td>'.$crow['lastname'].", ".$crow['firstname'].'</td>
+      					<td>'.$crow['firstname']." ".$crow['lastname'].'</td>
       					<td>'.$votes.'</td>
       				</tr>
       			';
